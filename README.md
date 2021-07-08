@@ -4,7 +4,11 @@
 
 ## App made with
 
-create-react-app
-Firebase
-Sass
-Tostify
+-create-react-app
+
+-Firebase
+
+-Sass
+
+-Tostify
+

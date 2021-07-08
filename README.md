@@ -1,4 +1,4 @@
-# React app to add links
+# React links app
 
 [Links app](https://fitto-a.github.io/links-app-react/).
 

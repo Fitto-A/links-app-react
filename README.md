@@ -2,5 +2,9 @@
 
 [Links app](https://fitto-a.github.io/links-app-react/).
 
-## Available Scripts
+## App made with
 
+create-react-app
+Firebase
+Sass
+Tostify

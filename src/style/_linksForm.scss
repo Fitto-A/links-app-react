@@ -1,0 +1,45 @@
+
+.form-input {
+    // font-size: 2rem;
+    text-align: center;
+    color: #DEC681;
+    max-height: 300px;
+    padding: 0.5rem;
+    margin-bottom: 12px;
+    background-color: map-get($colors, --grey);
+    border-radius: 12px;
+    
+    input {
+        font-size: 0.8rem;
+        border: none;
+        margin-bottom: 0.5rem;
+        background-color: map-get($colors, --white);
+        color: map-get($colors, --dark-blue);
+        padding: 0.8em;
+        border-radius: 12px;
+        outline: none;
+        width: 200px;
+    }
+    .form-textarea {
+        outline: none;
+        border: none;
+        width: 220px;
+        height: 180px;
+        padding: 0.8em;
+        border-radius: 12px;
+        background-color: map-get($colors, --white);
+
+    }
+}
+.form-container {
+    padding: 0.5rem;
+}
+.material-icons {
+    font-size: 1.5rem;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+// ::placeholder{
+//     color: #DEC681;
+// }

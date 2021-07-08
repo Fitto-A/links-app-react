@@ -1,0 +1,47 @@
+// $colors: (
+//     --dark-blue: #293040,
+//     --grey: #64758C,
+//     --red: #A60F1B,
+//     --orange: #BF8C6F,
+//     --orange-2: #D9B68B,
+//     --yellow: #DEC681
+// );
+
+$colors: (
+    --dark-blue: #1E2019,
+    --grey: #587B7F,
+    --white: #D3D0CB,
+    --red: #A60F1B,
+    --orange: #BF8C6F,
+    --orange-2: #D9B68B,
+    --yellow: #E2C044
+);
+
+    
+@import './linksForm';
+@import './button';
+@import './link';
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 2rem;
+    // background-color: saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.app {
+    padding: 2rem 1rem;
+    background-color: map-get($colors, --dark-blue);
+    border: solid 2px map-get($colors, --dark-blue);
+    border-radius: 12px;   
+}
+

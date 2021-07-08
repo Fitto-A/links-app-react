@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+    text-align: right;
+    color: map-get($colors, --dark-blue);
+
+}
+
+.link-container {
+    border-radius: 12px;
+    background-color: map-get($colors, --grey);
+    margin: 1.5em 0;
+    padding: 1.5rem 1rem 1rem 1rem;
+    color: map-get($colors, --dark-blue);
+    h4{
+        font-size: 1.5rem;
+        color: map-get($colors, --yellow);
+    }
+    p{
+        text-align: left;
+    }
+    .text{
+        font-size: 0.8rem;
+        padding-left: 10px;
+        margin-bottom: -7.5rem;
+        margin-right: -10px;
+        text-align: right;
+        color: map-get($colors, --yellow);
+        display:block;
+        -webkit-transform: rotate(-45deg); 
+        -moz-transform: rotate(-45deg); 
+    }
+    .name-container {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.5rem;
+        
+        .icons-container{
+            float: left;
+            margin-top: -10px;
+            .edit{
+                color: map-get($colors, --orange-2);
+                cursor: pointer;
+                transition: 0.70s;
+            }
+            .edit:hover{
+                transform: scale(1.5);
+            }
+            .close{
+                color: map-get($colors, --red);
+                cursor: pointer;     
+                transition: 0.70s;
+            }
+            .close:hover{
+                transform: scale(1.5);
+            }
+
+        }
+    }
+}
+.link-container-top {
+    margin-bottom: 6rem;
+}
+
+.link {
+    display: block;
+    i.material-icons.site{
+        font-size: 4rem;
+        color: #DEC681;
+        float: right;
+    }
+}
+
+.link-container-divider{
+    border-top: solid 1px map-get($colors, --dark-blue);
+    padding: 0.5em 0;
+    width: 95%;
+    display: inline-flex;
+}
+.link-container-divider2{
+    border-bottom: solid 1px map-get($colors, --dark-blue);
+    padding: 0.5em 0;
+    width: 95%;
+    display: inline-flex;
+}
+.web-container i {
+    -webkit-transition: 0.70s;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.web-container i:hover{
+    transition: 0.70s;
+    -webkit-transition: 0.70s;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}

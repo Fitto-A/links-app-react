@@ -1,0 +1,23 @@
+.btn {
+    border: none;
+    padding: 1em 1em;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 700;
+    background-color: map-get($colors, --orange-2);
+    color: map-get($colors , --grey);
+    outline: none;
+    cursor: pointer;
+    transition: 0.70s;
+
+
+}
+
+.btn:hover {
+    background-color: map-get($colors, --yellow);
+    color: map-get($colors , --dark-blue);
+
+}
